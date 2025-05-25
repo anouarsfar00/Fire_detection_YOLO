@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# IDE
+.idea/*
+.vscode/*
+# iOS
+.DS_Store
+# env files
+.env*
+# Python env folders
+Lib/*
+Scripts/*
+predictions/*
+runs/*
+profile_pics/*
+contract_pics/*
+
+# assets
+Site_web/contract_pics/*
+
+# Pytorch model files
+*.pt
