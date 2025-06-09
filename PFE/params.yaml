@@ -1,0 +1,9 @@
+model_type: yolo8n.pt 
+pretrained: True 
+seed: 0
+imgsz: 640
+batch: 8
+epochs: 25
+optimizer: SGD
+lr0: 0.01
+name: 'yolo8n_exp_v0'
