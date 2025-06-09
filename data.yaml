@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['fire', 'other', 'smoke']
+
+roboflow:
+  workspace: my-space-3zzwr
+  project: fire-smoke-detection-odvk6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-space-3zzwr/fire-smoke-detection-odvk6/dataset/1
